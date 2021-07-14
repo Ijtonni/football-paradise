@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+/*-------------------- 
+top part style 
+--------------------*/
+.top-bannerbackground{
+   
+    background-color: #0a007ef1;
+}
+.topbanner{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   width: 80%;
+   margin: auto;
+}
+.top-player{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#top-title{
+    font-size: 180%;
+    color: #e69d6c;
+}
+
+.button:hover{
+    width: 165px;
+    height: 45px;
+    background-color: #E02C6D;
+    border: none;
+    color: #FFFFFF;
+}
+.fas{
+    margin-left: 8px;
+}
+
+/*-----------------------------
+ Middle Part style
+ ------------------------------*/
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    align-items: center;
+    padding-top: 70px;
+    padding-left: 60px;
+}
+.players{
+    margin-right: 25px;
+    margin-top: 20px;
+    border: 1px solid #FFFFFF;
+    padding: 15px;
+    box-shadow: 1px 2px 4px 4px #888888;
+    border-radius: 3px;
+}
+/*-----------------------
+ 3rd Football section 
+ -----------------------*/
+.head-of-3rd-section{
+    display: flex;
+    margin-top: 8%;
+    align-items: center;
+}
+.third-sction{
+    margin-left: 8%;
+    margin-right: 4%;
+}
+
+#title-of-3rd{
+    color: #0A0826;
+    font-size: 48px;
+}
+/*------------------- 
+football Logo section  
+--------------------*/
+#logo{
+    margin-left: 40%;
+    margin-top: 8%;
+}
+/*-------------------- 
+social icon  
+--------------------*/
+.icon{
+    margin-left: 45%;
+    font-size: 20px;
+}
+.fab{
+    margin-left: 8px;
+}
