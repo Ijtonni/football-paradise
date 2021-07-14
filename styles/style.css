@@ -89,3 +89,19 @@ social icon
 .fab{
     margin-left: 8px;
 }
+
+/*----------------- 
+Media Queries 
+-----------------*/
+/* Web size for Mobile */
+@media only screen and(max-width:688px){
+    .grid{
+        width: 100%;
+    }
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grid{
+        flex-direction: column;
+    }
+}
